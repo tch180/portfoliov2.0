@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 
 
+
 const ContactMeform = styled.div`
 
 span {
@@ -25,25 +26,28 @@ class contactme extends Component {
 
 
   <form>
-<div class="input-group">
-  <span class="input-group-addon" id="basic-addon1">Name:</span>
-  <input type="text" class="form-control" placeholder="Name" aria-describedby="basic-addon1"/>
+    <ContactMeform>
+<div className="input-group">
+  <span className="input-group-addon" id="basic-addon1">Name:</span>
+  <input type="text" className="form-control" placeholder="Name" aria-describedby="basic-addon1"/>
 </div>
               
-<div class="input-group">
-  <span class="input-group-addon" id="basic-addon1">Company:</span>
-  <input type="text" class="form-control" placeholder="Company Name" aria-describedby="basic-addon1"/>
+<div className="input-group">
+  <span className="input-group-addon" id="basic-addon1">Company:</span>
+  <input type="text" className="form-control" placeholder="Company Name" aria-describedby="basic-addon1"/>
 </div>
 
-<div class="input-group">
-  <span class="input-group-addon" id="basic-addon1">Number:</span>
-  <input type="text" class="form-control" placeholder="Contact #" aria-describedby="basic-addon1"/>
+<div className="input-group">
+  <span className="input-group-addon" id="basic-addon1">Number:</span>
+  <input type="text" className="form-control" placeholder="Contact #" aria-describedby="basic-addon1"/>
 </div>
 
-<div class="input-group">
-  <span class="input-group-addon" id="basic-addon1">Email:</span>
-  <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1"/>
+<div className="input-group">
+  <span className="input-group-addon" id="basic-addon1">Email:</span>
+  <input type="text" className="form-control" placeholder="Email" aria-describedby="basic-addon1"/>
 </div>
+<button className="btn btn-success" type="submit">Button</button>
+</ContactMeform>
 </form>
             </div>
         );

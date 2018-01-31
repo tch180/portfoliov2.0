@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 
 
 class carousel extends Component {
+
+  
+  
+  
+  
     render() {
         return (
             <div>
@@ -13,15 +18,14 @@ class carousel extends Component {
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
     <li data-target="#carousel-example-generic" data-slide-to="3"></li>
     <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
   </ol>
 
   {/* <!-- Wrapper for slides --> */}
   <div className="carousel-inner" role="listbox">
     <div className="item">
-      <img src="https://i.imgur.com/NCTOjV4.jpg" alt="..."/>
+      <img src="https://i.imgur.com/NCTOjV4.jpg" alt="Cutting Board"/>
       <div className="carousel-caption">
-        <h1>first project</h1>
+        <h1>Best Chef</h1>
       </div>
     </div>
     <div className="item active">
